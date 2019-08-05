@@ -1,0 +1,157 @@
+@import url('/font-awesome-4.6.3/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800,900&display=swap');
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+a {
+    color: #646464;
+}
+
+/*Start header*/
+
+.header {
+    background-color:#e6e6e6;
+    width: 100%;
+    color: #646464;
+    font-size: 14px;
+    padding: 10px 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.homepage {
+    font-size: 16px;
+    color: #646464;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.new {
+    font-size: 12px;
+}
+
+.phone-number {
+    text-align: center;
+    padding-left: 55px;
+    padding-right: 33px;
+    margin-bottom: 0;
+}
+
+.mobile {
+    color: #646464;
+    text-decoration: normal;
+}
+
+.register-link {
+    color: #646464;
+    padding: 10px;
+}
+
+.register-link:hover {
+    background-color: #2985d8;
+    color: white;
+    height: 100%;
+    text-decoration: none;
+}
+/*End header*/
+
+
+/*Start navigation*/
+.block2 {
+    height: 100px;
+    color: #646464;
+}
+
+.nav-item {
+    margin-right: 24px;
+    color: #646464;
+}
+
+
+/*End navigation*/
+
+
+/*Start block3*/
+.block3 {
+    box-sizing: border-box;
+    height: 650px;
+    background-color: rgb(59, 155, 184);
+    font-family: 'Montserrat', bold 800;
+}
+
+.doctor {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#intro1 {
+    background: url(img/01_Home-Page-Doctor.jpg) no-repeat center center fixed;
+    display: table;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+
+.subheading {
+    font-size: 24px;
+    color: #2985d8;
+    margin-bottom: 1.5rem!important;
+    height: 375px;
+}
+
+/*End block3*/
+.block4 {
+    height: 629px;
+}
+
+.block5 {
+    height: 932px;
+    background-color: #0d1c26;
+    
+}
+
+#intro2 {
+    background: url(img/02_Home-Page-Doctor.jpg) no-repeat center center fixed;
+    display: table;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+
+.block6 {
+    height: 714px;
+    background-color: #fafafa;
+}
+
+.block7 {
+    height: 155px;
+}
+
+.block8 {
+    height: 394px;
+    background-color: #0d1c26;
+}
+
+.block9 {
+    height: 39px;
+    background-color: #10222d;
+}
