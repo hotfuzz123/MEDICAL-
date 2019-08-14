@@ -9,30 +9,30 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="index.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <title>MEDICAL +</title>
+    <script src="main.js"></script>
   </head>
-  <body>
-    <div class="container-fluid">
-      <!--Start header-->
-      <header class="header animated fadeInUp delay-2s">
+  <body class="container-fluid p-0">
+    <!---->
+    <!--Start header - animated fadeInUp delay-2s--> 
+      <header class="header">
         <div class="container"> 
           <div class="row no-gutters">
-            <div class="col-lg-12 d-block">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 d-block">
               <div class="row d-flex">
-                <div class="col-sm-8 d-flex topper align-items-center">
+                <div class="col-6 col-sm-6 col-md-8 d-flex topper align-items-center">
                   <a class="homepage" href="">Hot News !</a>
-                  <a class="new">Lorem ipsum dolar set ament</h1>
+                  <a class="new">Lorem ipsum dolar set ament</a>
                 </div>
-                <div class="col-sx-8 d-flex topper align-items-center text-lg-right justify-content-end">
+                <div class="col-3 col-sm-3 col-md-2 d-flex topper align-items-center text-lg-right justify-content-end">
                   <p class="phone-number">
                     <i class="fas fa-mobile-alt"></i>
                     <a class="mobile" href="">+99 888-755-7584</a>
                   </p>                  
                 </div>
-                <div class="d-flex topper align-items-center text-lg-right justify-content-end">
+                <div class="col-3 col-sm-3 col-md-2 d-flex topper align-items-center text-lg-right justify-content-end">
                   <p class="mb-0">
                     <a class="uppercase register-link" href="">register</a>
                     <a class="uppercase register-link" href="">login</a>
@@ -43,90 +43,147 @@
           </div>
         </div>
       </header>
-      <!--End header-->
+    <!--End header-->
 
-      <!--Start navigation-->
-      <nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light site-navbar-target sleep block2 animated fadeInUp delay-2s ">
-          <div class="container">
-            <a class="nav-brand" href="index.html"><img src="./img/Medical + .png" alt=""></a>
-            <div class="navbar-collapse collapse" id="ftco-nav">
-              <ul class="nav navbar-nav topper align-items-center text-lg-right justify-content-end ml-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link uppercase" href="#">
-                      <span>Home</span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link uppercase" href="#">
-                      <span>Services</span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link uppercase" href="#">
-                      <span>About</span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link uppercase" href="#">
-                      <span>Blog</span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link uppercase" href="#">
-                      <span>Page</span>
-                    </a>
-                  </li>
-                  <li class="">
-                    <a class="uppercase" href="#">
-                      <button type="button" class="btn btn-primary">Make appointment</button>
-                    </a>
-                  </li>                    
-              </ul>              
-            </div>
+    <!--Start navigation-->
+      <nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light site-navbar-target sleep block2">
+        <div class="container">
+          <a class="nav-brand" href="index.html"><img src="./img/Medical + .png" alt=""></a>
+          <div class="navbar-collapse collapse" id="ftco-nav">
+            <ul class="nav navbar-nav topper align-items-center text-lg-right justify-content-end ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link uppercase" href="#">
+                    <span>Home</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link uppercase" href="#">
+                    <span>Services</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link uppercase" href="#about">
+                    <span>About</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link uppercase" href="#">
+                    <span>Blog</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link uppercase" href="#">
+                    <span>Page</span>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="uppercase" href="#">
+                    <button type="button" class="btn btn-primary">Make appointment</button>
+                  </a>
+                </li>                    
+            </ul>              
           </div>
+        </div>
       </nav>
-      <!--End navigation-->
+    <!--End navigation-->
 
-      <!--Start layout-->
-      <main>
-        <div id="intro1" class="block3 ">
-          <div class="container">
-            <div class="col-md-6 ftco-animate fadeInUp ftco-animated" style="padding-top: 195px;">
-              <div class="mt-7 no-margin">
-                <span class="subheading uppercase" style="height: 545px;">We Provide</span>
+    <!--Start layout-->
+      <section id="intro1" class="block3">
+        <div class="container">
+          <div class="row d-flex no-gutters">
+            <div class="col-sm-6 col-md-6">
+              <div class="mt-6 pt-15 m-0">
+                <span class="subheading uppercase">We Provide</span>
                 <h1 class="mb-4">Medical Services</h1>
                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim aliquam quaerat voluptatem.</p>
                 <p><button type="button" class="btn btn-primary uppercase">Read More</button></p>
               </div>
             </div>
-            <img  class="doctor" src="./img/Layer 37.png" alt="">
           </div>
         </div>
-        <div class="block4">
-            <h1>hello world</h1>
-        </div>
-        <div id="intro2" class="block5">
-            <h1>hello world</h1>
-        </div>
-        <div class="block6">
-            <h1>hello world</h1>
-        </div>
-        <div class="block7">
-            <h1>hello world</h1>
-        </div>
-      </main>
-      <!--End layout-->
+      </section>
 
-      <!--Start footer-->
+      <section class="block4">
+        <div class="container"></div>
+      </section>
+
+      <section id="intro2" class="block5">
+        <div class="container"></div>
+      </section>
+
+      <section id="about" class="block6">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col col-sm col-md-6 py-5">
+              <h1 class="pb-4 uppercase">Our lastest news</h1>
+              <div class="info d-flex mb-4">
+                <div>
+                  <img src="./img/Info.jpg" alt="">
+                </div>
+                <div class="m-4">
+                  <h3>Medical Test Checkup</h3>
+                  <p>Suspendisse potenti. Maecenas dapibus ac tellus sed pulvinar. Vestibulum bib volutpat accumsan non laoreet...</p>
+                </div>
+              </div>
+              <div class="info d-flex">
+                <div>
+                  <img src="./img/Info.jpg" alt="">
+                </div>
+                <div class="m-4">
+                  <h3>Medical Test Checkup</h3>
+                  <p>Suspendisse potenti. Maecenas dapibus ac tellus sed pulvinar. Vestibulum bib volutpat accumsan non laoreet...</p>
+                </div>
+              </div>
+            </div>
+            <div class="col col-sm col-md-6 py-2">
+              <h1 class="pb-4 uppercase">Video Introduction</h1>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/F2M3Cz8fXpk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="block7">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col p-4">
+              <img src="./img/Layer 63.png" alt="">
+            </div>
+            <div class="col p-4">
+              <img src="./img/Layer 62.png" alt="">
+            </div>
+            <div class="col p-4">
+              <img src="./img/Vector Smart Object.png" alt="">
+            </div>
+            <div class="col p-4">
+              <img src="./img/Layer 28 copy.png" alt="">
+            </div>
+          </div>
+        </div>       
+      </section>
+
+    <!--End layout-->
+
+    <!--Start footer-->
       <footer>
         <div class="block8">
-          <h1>hello world</h1>
+          <div class="container"></div>
         </div>
         <div class="block9">
-          
+          <div class="container">
+            <div class="row d-flex align-items-center">
+              <div class="col p-2">UiFuse.com © 2015, All Rights Reserved</div>
+              <div class="col row d-flex text-lg-right justify-content-end">
+                <a class="p-2 footer-nav" href="#">Home</a>
+                <a class="p-2 footer-nav" href="#">About</a>
+                <a class="p-2 footer-nav" href="#">BLog</a>
+                <a class="p-2 footer-nav" href="#">Contact Us</a>
+              </div>
+            </div>
+          </div>
         </div>
       </footer>
-    </div>
+   
     <!--End footer-->
       
   

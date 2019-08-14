@@ -3,35 +3,39 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800,900&display=swap');
 
 .container {
-    width: 1200px;
+    width: 90%;
     margin: 0 auto;
     height: 100%;
     position: relative;
     
 }
 
-.container-fluid {
-    padding: 0;
-}
-
 .uppercase {
     text-transform: uppercase;
-}
-
-.no-margin {
-    margin: 0;
 }
 
 a {
     color: #646464;
 }
 
+
+.pt-15 {
+    padding-top: 15rem!important
+}
+
+.pr-9 {
+    padding-right: 9rem!important
+}
+
+
+.pl-6 {
+    padding-left: 6rem!important
+}
 /*Start header*/
 
 .header {
     background-color:#e6e6e6;
     width: 100%;
-    color: #646464;
     font-size: 14px;
     padding: 10px 0;
     font-family: 'Lato', sans-serif;
@@ -39,7 +43,6 @@ a {
 
 .homepage {
     font-size: 16px;
-    color: #646464;
     margin-right: 15px;
     font-weight: bold;
 }
@@ -50,18 +53,14 @@ a {
 
 .phone-number {
     text-align: center;
-    padding-left: 55px;
-    padding-right: 33px;
     margin-bottom: 0;
 }
 
 .mobile {
-    color: #646464;
     text-decoration: normal;
 }
 
 .register-link {
-    color: #646464;
     padding: 10px;
 }
 
@@ -91,20 +90,13 @@ a {
 
 /*Start block3*/
 .block3 {
-    box-sizing: border-box;
-    height: 650px;
+    height: 649px;
     background-color: rgb(59, 155, 184);
     font-family: 'Montserrat', bold 800;
 }
 
-.doctor {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
 #intro1 {
-    background: url(img/01_Home-Page-Doctor.jpg) no-repeat center center fixed;
+    background: url(img/12_Home-Page-Doctor.jpg) no-repeat center center;
     display: table;
     width: 100%;
     position: relative;
@@ -115,10 +107,10 @@ a {
     font-size: 24px;
     color: #2985d8;
     margin-bottom: 1.5rem!important;
-    height: 375px;
 }
 
 /*End block3*/
+
 .block4 {
     height: 629px;
 }
@@ -138,12 +130,32 @@ a {
 }
 
 .block6 {
-    height: 714px;
+    height: auto;
     background-color: #fafafa;
 }
 
+.info {
+    width: 550px;
+    height: 172px;
+    background-color: white;
+}
+
 .block7 {
-    height: 155px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.logo {
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
+
+/*Start Footer*/
+
+footer {
+    color: white;
+    align-content: center;
+    font-size: 0.875rem;
 }
 
 .block8 {
@@ -152,6 +164,16 @@ a {
 }
 
 .block9 {
-    height: 39px;
+    max-height: auto;
     background-color: #10222d;
 }
+
+.footer-nav {
+    color: white;
+}
+
+.footer-nav:hover {
+    color: white;
+}
+
+/*End Footer*/
