@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="index.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
@@ -46,18 +46,21 @@
     <!--End header-->
 
     <!--Start navigation-->
-      <nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light site-navbar-target sleep block2">
+      <nav class="navbar navbar-expand-lg block2">
         <div class="container">
           <a class="nav-brand" href="index.html"><img src="./img/Medical + .png" alt=""></a>
-          <div class="navbar-collapse collapse" id="ftco-nav">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon white-text"><i class="fas fa-bars fa-1x"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="nav navbar-nav topper align-items-center text-lg-right justify-content-end ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link uppercase" href="#">
+                <li class="nav-item">
+                  <a class="nav-link active uppercase" href="#home">
                     <span>Home</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link uppercase" href="#">
+                  <a class="nav-link uppercase" href="#services">
                     <span>Services</span>
                   </a>
                 </li>
@@ -67,12 +70,12 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link uppercase" href="#">
+                  <a class="nav-link uppercase" href="#blog">
                     <span>Blog</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link uppercase" href="#">
+                  <a class="nav-link uppercase" href="#page">
                     <span>Page</span>
                   </a>
                 </li>
@@ -91,7 +94,7 @@
       <section id="intro1" class="block3">
         <div class="container">
           <div class="row d-flex no-gutters">
-            <div class="col-sm-6 col-md-6">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6">
               <div class="mt-6 pt-15 m-0">
                 <span class="subheading uppercase">We Provide</span>
                 <h1 class="mb-4">Medical Services</h1>
@@ -118,7 +121,7 @@
               <h1 class="pb-4 uppercase">Our lastest news</h1>
               <div class="info d-flex mb-4">
                 <div>
-                  <img src="./img/Info.jpg" alt="">
+                  <img class="images_about"src="./img/Info.jpg" alt="">
                 </div>
                 <div class="m-4">
                   <h3>Medical Test Checkup</h3>
@@ -127,7 +130,7 @@
               </div>
               <div class="info d-flex">
                 <div>
-                  <img src="./img/Info.jpg" alt="">
+                  <img class="images_about"src="./img/Info.jpg" alt="">
                 </div>
                 <div class="m-4">
                   <h3>Medical Test Checkup</h3>
@@ -137,7 +140,7 @@
             </div>
             <div class="col col-sm col-md-6 py-2">
               <h1 class="pb-4 uppercase">Video Introduction</h1>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/F2M3Cz8fXpk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="video_about" src="https://www.youtube.com/embed/F2M3Cz8fXpk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
         </div>
