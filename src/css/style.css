@@ -1,0 +1,236 @@
+@import url('/font-awesome-4.6.3/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+a {
+    color: #646464;
+}
+
+
+.pt-15 {
+    padding-top: 15rem;
+}
+
+.pr-9 {
+    padding-right: 9rem!important
+}
+
+
+.pl-6 {
+    padding-left: 6rem!important
+}
+/*Start header*/
+
+.header {
+    background-color:#e6e6e6;
+    width: 100%;
+    font-size: 14px;
+    padding: 0.5% 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.homepage {
+    font-size: 16px;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.new {
+    font-size: 12px;
+}
+
+.phone-number {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.mobile {
+    text-decoration: normal;
+}
+
+.register-link {
+    padding: 0.6rem;
+}
+
+.register-link:hover {
+    background-color: #2985d8;
+    color: white;
+    height: 100%;
+    text-decoration: none;
+}
+/*End header*/
+
+
+/*Start navigation*/
+.block2 {
+    color: #646464;
+}
+
+.navbar {
+    padding: 2% 0;
+}
+
+.nav-item {
+    margin-right: 24px;
+    color: #646464;
+}
+
+
+/*End navigation*/
+
+
+/*Start block3*/
+.block3 {
+    height: 649px;
+    background-color: blue;
+    font-family: 'Montserrat', bold 800;
+}
+
+#intro1 {
+    background: url(../img/12_Home-Page-Doctor.jpg) no-repeat center center;
+    display: table;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+
+.block3_block {
+    height: 100%;
+}
+
+.subheading {
+    font-size: 24px;
+    color: #2985d8;
+}
+
+/*End block3*/
+
+.block4 {
+    height: 250%
+}
+
+.icon:hover {
+    background-color: #2985d8;
+    color: white;
+}
+
+.services_logo:hover {
+    color: white;
+}
+
+.icon {
+    height: 235px;
+    background-color: #fafafa;
+}
+
+.services_logo {
+    border-bottom: solid 2px #85b3dd;
+    margin-bottom: 18px;
+    padding-bottom: 24px;
+    
+}
+
+.block4_text {
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 12px;
+}
+
+
+.form {
+    background-color: #2985d8;
+    height: 60%;
+}
+
+
+.text-form {
+    font-size: 28px;
+}
+
+.block5 {
+    height: 932px;
+    background-color: #0d1c26;
+    
+}
+
+#intro2 {
+    background: url(../img/02_Home-Page-Doctor.jpg) no-repeat center center;
+    display: table;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+
+.block6 {
+    height: auto;
+    background-color: #fafafa;
+    font-size: 13px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.info {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.images_about {
+    width: 100%;
+}
+
+.video_about {
+    width: 100%;
+    height: 315px;
+}
+
+.block7 {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.logo {
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
+
+/*Start Footer*/
+
+footer {
+    color: white;
+    align-content: center;
+    font-size: 0.875rem;
+}
+
+.block8 {
+    height: 394px;
+    background-color: #0d1c26;
+}
+
+.block9 {
+    max-height: auto;
+    background-color: #10222d;
+}
+
+.footer-nav {
+    color: white;
+}
+
+.footer-nav:hover {
+    color: white;
+}
+
+/*End Footer*/
