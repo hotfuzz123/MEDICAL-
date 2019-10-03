@@ -2,13 +2,17 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield&display=swap');
 .container {
     width: 90%;
     margin: 0 auto;
     height: 100%;
     position: relative;
     
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .uppercase {
@@ -31,6 +35,11 @@ a {
 
 .pl-6 {
     padding-left: 6rem!important
+}
+
+h3 {
+    font-weight: bolder;
+    font-family: 'Montserrat', bold 800;
 }
 /*Start header*/
 
@@ -207,6 +216,21 @@ h3 {
     padding-bottom: 45px;
 }
 
+.scroll_block {
+    background-color: #0d1c26;
+    height: 41px;
+    width: 100%;
+}
+
+.scroll {
+    background-color: #2985d8;
+    padding: 13px;
+}
+
+.text-white {
+    color: white;
+}
+
 /*Start Footer*/
 
 footer {
@@ -216,8 +240,47 @@ footer {
 }
 
 .block8 {
-    height: 394px;
+    height: 100%;
     background-color: #0d1c26;
+}
+
+.list-unstyled {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.title {
+    font-size: 20px;
+    padding-bottom: 42px;
+}
+
+.text-blue {
+    color: #2985d8;
+}
+
+.sign {
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 40px;
+}
+
+.social {
+    background-color: white;
+    color: #333;
+    padding: 5px;
+}
+
+.social:hover {
+    background-color: #2985d8;
+    color: white;
+    padding: 5px;
+}
+
+.text {
+    color: white;
+}
+
+.logo-icon {
+    color: #2985d8;
 }
 
 .block9 {
