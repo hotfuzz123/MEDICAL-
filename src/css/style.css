@@ -1,29 +1,3 @@
-@import url('/font-awesome-4.6.3/css/font-awesome.min.css');
-@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800,900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield&display=swap');
-.container {
-    width: 90%;
-    margin: 0 auto;
-    height: 100%;
-    position: relative;
-    
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-a {
-    color: #646464;
-}
-
-
 .pt-15 {
     padding-top: 15rem;
 }
@@ -37,10 +11,6 @@ a {
     padding-left: 6rem!important
 }
 
-h3 {
-    font-weight: bolder;
-    font-family: 'Montserrat', bold 800;
-}
 /*Start header*/
 
 .header {
@@ -182,14 +152,15 @@ h3 {
     background-size: cover;
 }
 
+.project {
+    height: 306px;
+    width: 306px;
+}
+
 .block6 {
     height: auto;
     background-color: #fafafa;
     font-size: 13px;
-}
-
-h3 {
-    font-size: 25px;
 }
 
 .info {
@@ -220,11 +191,15 @@ h3 {
     background-color: #0d1c26;
     height: 41px;
     width: 100%;
+    border-top: 3px solid #2985d8;
+    position: relative;
 }
 
 .scroll {
     background-color: #2985d8;
     padding: 13px;
+    position: absolute;
+    right: 0;
 }
 
 .text-white {
