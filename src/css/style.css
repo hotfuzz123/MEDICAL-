@@ -152,9 +152,25 @@
     background-size: cover;
 }
 
-.project {
-    height: 306px;
-    width: 306px;
+.projects {
+    margin: 0 35%;
+}
+
+.filter {
+
+}
+
+.filter:hover {
+    background-color: #2985d8;
+    color: white;
+}
+
+.grid-5 {
+    flex: 0 0 calc((100% / 5) - 10px)
+}
+
+.all-projects {
+    padding: 0 45%; 
 }
 
 .block6 {
