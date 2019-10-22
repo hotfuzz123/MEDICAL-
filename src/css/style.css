@@ -139,9 +139,10 @@
 }
 
 .block5 {
-    height: 932px;
+    height: 100%;
+    max-height: auto;
+    width: 100%;
     background-color: #0d1c26;
-    
 }
 
 #intro2 {
@@ -152,21 +153,35 @@
     background-size: cover;
 }
 
-.projects {
-    margin: 0 35%;
+.portfolio-menu {
+    text-align: center;
 }
 
-.filter {
-
-}
-
-.filter:hover {
-    background-color: #2985d8;
+.portfolio-menu ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 15px;
+    cursor: pointer;
     color: white;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transtions: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.portfolio-menu ul li:hover {
+    background: #2985d8;
+    color: #fff;
+}
+
+li.active {
+    background: #2985d8;
+    color: #fff; 
 }
 
 .grid-5 {
-    flex: 0 0 calc((100% / 5) - 10px)
+    flex: 0 0 calc((100% / 5) - 10px);
 }
 
 .all-projects {
