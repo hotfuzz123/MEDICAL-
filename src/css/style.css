@@ -138,6 +138,15 @@
     font-size: 28px;
 }
 
+.submit-button {
+    border: 1px solid white;
+    padding: 10px 70px;
+    background-color: #2985d8;
+    margin: 0;
+    cursor: pointer;
+    color: white;
+}
+
 .block5 {
     height: 100%;
     max-height: auto;
@@ -151,6 +160,11 @@
     width: 100%;
     position: relative;
     background-size: cover;
+}
+
+.block5_title {
+    margin: 0 35%;
+    
 }
 
 .portfolio-menu {
