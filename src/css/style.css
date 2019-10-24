@@ -189,9 +189,17 @@ li.active {
 .grid-item, .grid-sizer {
     width: 20%;
 }
-  
+
 .grid-item {
     float: left;
+    width: 302px;
+}
+  
+.grid-item:before {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    padding: 0.2em;
 }
 
 .all-projects {
