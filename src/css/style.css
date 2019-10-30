@@ -90,6 +90,12 @@
 .icon:hover {
     background-color: #2985d8;
     color: white;
+    cursor: pointer;
+    -webkit-transition: all 1.5s ease;
+    -moz-transition: all 1.5s ease;
+    -ms-transtions: all 1.5s ease;
+    -o-transition: all 1.5s ease;
+    transition: all 1.5s ease;
 }
 
 .services_logo:hover {
@@ -149,8 +155,7 @@
 }
 
 .block5_title {
-    margin: 0 35%;
-    
+    margin: 0 35%;    
 }
 
 .portfolio-menu {
@@ -185,7 +190,80 @@ li.active {
     display: block;
     clear: both;
 }
-  
+.portfolio-item .grid-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-item .grid-item::before {
+    content: '';
+    position: absolute;
+}
+
+.portfolio-item .grid-item .imgBox {
+    position: relative;
+}
+
+.portfolio-item .grid-item img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.portfolio-item .grid-item:hover .imgBox img {
+    opacity: 0.2;
+    transform: scale(1.2);
+}
+
+.portfolio-item .grid-item .content {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.portfolio-item .grid-item .content i {
+    margin: 0;
+    padding: 0;
+    color: #2985d8;
+    font-size: 25px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.portfolio-item .grid-item .content h2 {
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 14px;
+    transition: 0.5s;
+    transform: translateY(10px);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.portfolio-item .grid-item .content p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 12px;
+    transition: 0.5s;
+    transform: translateY(24px);
+    opacity: 0;
+    visibility: hidden;
+}
+.portfolio-item .grid-item:hover .content i,
+.portfolio-item .grid-item:hover .content h2,
+.portfolio-item .grid-item:hover .content p {
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(0px);
+}
+
 .grid-item, .grid-sizer {
     width: 20%;
 }
