@@ -22,7 +22,7 @@
   <body>
     <!---->
     <!--Start header--> 
-      <header class="header">
+      <header class="header" id="home">
         <div class="container"> 
           <div class="no-gutters">
             <div class="row d-flex text-center align-items-center">
@@ -47,16 +47,16 @@
     <!--End header-->
 
     <!--Start navigation-->
-      <nav class="navbar navbar-expand-lg block2">
+      <nav class="navbar navbar-expand-lg block2 sticky-top">
         <div class="container">
           <a class="nav-brand" href="index.html"><img src="../MEDICAL-/src/img/Medical + .png" alt=""></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
             <span class="navbar-toggler-icon white-text"><i class="fas fa-bars fa-1x"></i></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
+          <div class="navigation collapse navbar-collapse" id="navbarResponsive">
             <ul class="nav navbar-nav topper align-items-center text-lg-right justify-content-end ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link active uppercase" href="#home">
+                <li class="nav-item active">
+                  <a class="nav-link uppercase" href="#home">
                     <span>Home</span>
                   </a>
                 </li>
@@ -81,7 +81,7 @@
                   </a>
                 </li>
                 <li class="">
-                  <a class="uppercase" href="#">
+                  <a class="uppercase" href="#make">
                     <button type="button" class="btn btn-primary">Make appointment</button>
                   </a>
                 </li>                    
@@ -92,13 +92,13 @@
     <!--End navigation-->
 
     <!--Start layout-->
-      <!--Quote-->
+      <!--slide-->
       <section id="intro1" class="block3">
         <div class="container">
           <div class="row d-flex no-gutters block3_block">
             <div class="col-6 col-sm-6 col-md-6 col-lg-6">
               <div class="pt-15">
-                <h1 class="mb-3 subheading uppercase">We Provide</h1>
+                <h1 class="mb-4 subheading uppercase">We Provide</h1>
                 <h1 class="mb-4">Medical Services</h1>
                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim aliquam quaerat voluptatem.</p>
                 <p><button type="button" class="btn btn-primary uppercase">Read More</button></p>
@@ -109,7 +109,7 @@
       </section>
 
       <!--Features and Form-->
-      <section class="block4">
+      <section class="block4" id="services">
         <div class="container">
           <div class="row d-flex">
             <div class="col-md-8">
@@ -118,7 +118,7 @@
                   <div class="col-md-4" style="padding-right:5px;">
                     <div class="icon pt-5 mb-2">
                       <div class="p-2 text-center">
-                        <div>
+                        <div class="logoBox">
                           <img class="services_logo" src="../MEDICAL-/src/img/Icon 1.png">
                         </div>
                         <p class="block4_text">Medicine & Drug Store</p>
@@ -126,7 +126,7 @@
                     </div>
                     <div class="icon pt-5">
                       <div class="p-2 text-center">
-                        <div>
+                        <div class="logoBox">
                           <img class="services_logo" src="../MEDICAL-/src/img/Icon 4.png">
                         </div>
                         <p class="block4_text">Dental Surgery operation</p>
@@ -136,7 +136,7 @@
                   <div class="col-md-4" style="padding: 0 5px;">
                     <div class="icon pt-5 mb-2">
                       <div class="p-2 text-center">
-                        <div>
+                        <div class="logoBox">
                           <img class="services_logo" src="../MEDICAL-/src/img/Icon 2.png">
                         </div>
                         <p class="block4_text">Speacial Health Care</p>
@@ -144,7 +144,7 @@
                     </div>
                     <div class="icon pt-5">
                       <div class="p-2 text-center">
-                        <div>
+                        <div class="logoBox">
                           <img class="services_logo" src="../MEDICAL-/src/img/Icon 2.png">
                         </div>
                         <p class="block4_text">Operation Section</p>
@@ -154,7 +154,7 @@
                   <div class="col-md-4 " style="padding-left: 5px;">
                     <div class="icon pt-5 mb-2">
                       <div class="p-2 text-center">
-                        <div>
+                        <div class="logoBox">
                           <img class="services_logo" src="../MEDICAL-/src/img/Icon 3.png">
                         </div>
                         <p class="block4_text">Dental Surgery operation</p>
@@ -162,7 +162,7 @@
                     </div>
                     <div class="icon pt-5">
                       <div class="p-2 text-center">
-                        <div>
+                        <div class="logoBox">
                           <img class="services_logo" src="../MEDICAL-/src/img/Icon 5.png">
                         </div>
                         <p class="block4_text">Special Check up</p>
@@ -172,7 +172,7 @@
                 </div>
               </div>
             </div>
-            <div class="form col-md-4 p-4 text-center">
+            <div class="form col-md-4 p-4 text-center" id="make">
               <form action="">
                 <h1 class="text-form text-white pt-4 uppercase">Make An Appointment</h1>
                 <p class="text-white uppercase">Fill form & Send me</p>
@@ -206,7 +206,7 @@
 
       <!--Filter-->
       <section id="intro2" class="block5">
-        <div class="block5_container container mb-4">
+        <div class="block5_container container mb-4" id="about">
           <div class="block5_title row d-flex uppercase pb-4 mt-5">
             <h3 class="text-blue pr-2">health</h3>
             <h3 class="text-white">care projects</h3>
@@ -331,7 +331,7 @@
       </section>
 
       <!--Blog and Video-->
-      <section id="about" class="block6">
+      <section id="blog" class="block6">
         <div class="container">
           <div class="row d-flex align-items-center">
             <div class="col-md-6 py-5">
@@ -392,21 +392,19 @@
     <!--End layout-->
 
       <!--Scroll to top-->
-      <section class="scroll_block">
-        <div class="container">
-          <a class="text-white" href="#">
-            <i class="scroll fas fa-chevron-up"></i>
-          </a>
-        </div>
-      </section>
+      <button id="btnScrollToTop">
+        <a class="text-white" href="#">
+          <i class="scroll fas fa-chevron-up"></i>
+        </a>
+      </button>
 
     <!--Start footer-->
       <footer>
-        <div class="block8">
-          <div class="container row d-flex" style="padding-bottom:61px; padding-top:42px;">
+        <div class="block8" id="page" style="border-top: 3px solid #2985d8;">
+          <div class="container row d-flex" style="padding: 61px 15px;">
             <div class="col-md-3">
               <h4 class="title">
-                <img src="../MEDICAL-/src/img/Medical + .png" class="">
+                <img src="../MEDICAL-/src/img/Medical plus.png" class="">
               </h4>
               <p>This is Photoshop's vesion  of Lorem um. sProin gravida nibh vel ivelit aur aliquet. Aenean sollici his a great justo. </p>
               <p class="sign">Jhone Smithson</p>

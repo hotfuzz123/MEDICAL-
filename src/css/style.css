@@ -47,12 +47,14 @@
 
 .navbar {
     padding: 2% 0;
+    background: white;
 }
 
 .nav-item {
     margin-right: 24px;
     color: #646464;
 }
+
 
 /*End navigation*/
 
@@ -90,16 +92,11 @@
 .icon:hover {
     background-color: #2985d8;
     color: white;
-    cursor: pointer;
     -webkit-transition: all 1.5s ease;
     -moz-transition: all 1.5s ease;
     -ms-transtions: all 1.5s ease;
     -o-transition: all 1.5s ease;
     transition: all 1.5s ease;
-}
-
-.services_logo:hover {
-    color: white;
 }
 
 .icon {
@@ -111,7 +108,6 @@
     border-bottom: solid 2px #85b3dd;
     margin-bottom: 18px;
     padding-bottom: 24px;
-    
 }
 
 .block4_text {
@@ -181,7 +177,6 @@
 }
 
 li.active {
-    background: #2985d8;
     color: #fff; 
 }
 
@@ -316,19 +311,17 @@ li.active {
 
 /*Scroll to top*/
 
-.scroll_block {
-    background-color: #0d1c26;
-    height: 41px;
-    width: 100%;
-    border-top: 3px solid #2985d8;
-    position: relative;
-}
-
-.scroll {
+#btnScrollToTop {
+    position: fixed;
+    right: 10px;
+    bottom: 75px;
+    width: 50px;
+    height: 50px;
     background-color: #2985d8;
-    padding: 13px;
-    position: absolute;
-    right: 0;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    border: none;
 }
 
 /*Start Footer*/

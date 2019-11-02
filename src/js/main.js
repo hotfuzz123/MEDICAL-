@@ -1,3 +1,10 @@
+//navigation
+$('.nav-item').click(function(){
+  $('.nav-item').removeClass('active');
+    $(this).addClass('active');
+});
+
+//filter
 $('.portfolio-item').isotope({
   itemSelector: '.grid-item',
   layout: 'fitRows'
