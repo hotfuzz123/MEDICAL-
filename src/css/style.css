@@ -1,392 +1,442 @@
-/*Start header*/
-
-.header {
-    background-color:#e6e6e6;
-    width: 100%;
-    font-size: 14px;
-    padding: 0.5% 0;
-    font-family: 'Lato', sans-serif;
+@import url("/font-awesome-4.6.3/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield&display=swap");
+.container {
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
 }
 
-.homepage {
-    font-size: 16px;
-    margin-right: 15px;
-    font-weight: bold;
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
-.new {
-    font-size: 12px;
+html body {
+  width: 100%;
 }
 
-.phone-number {
-    text-align: center;
-    margin-bottom: 0;
+.uppercase {
+  text-transform: uppercase;
 }
 
-.mobile {
-    text-decoration: normal;
+a {
+  color: #646464;
 }
 
-.register-link {
-    padding: 0.6rem;
-}
-
-.register-link:hover {
-    background-color: #2985d8;
-    color: white;
-    height: 100%;
-    text-decoration: none;
-}
-/*End header*/
-
-
-/*Start navigation*/
-.block2 {
-    color: #646464;
-}
-
-.navbar {
-    padding: 2% 0;
-    background: white;
-}
-
-.nav-item {
-    margin-right: 24px;
-    color: #646464;
-}
-
-
-/*End navigation*/
-
-
-/*Start block3*/
-.block3 {
-    height: 649px;
-    background-color: blue;
-    font-family: 'Montserrat', bold 800;
-}
-
-#intro1 {
-    background: url(../img/12_Home-Page-Doctor.jpg) no-repeat center center;
-    display: table;
-    width: 100%;
-    position: relative;
-    background-size: cover;
-}
-
-.block3_block {
-    height: 100%;
-}
-
-.subheading {
-    font-size: 24px;
-    color: #2985d8;
-}
-
-/*End block3*/
-
-.block4 {
-    height: 250%
-}
-
-.icon:hover {
-    background-color: #2985d8;
-    color: white;
-    -webkit-transition: all 1.5s ease;
-    -moz-transition: all 1.5s ease;
-    -ms-transtions: all 1.5s ease;
-    -o-transition: all 1.5s ease;
-    transition: all 1.5s ease;
-}
-
-.icon {
-    height: 235px;
-    background-color: #fafafa;
-}
-
-.services_logo {
-    border-bottom: solid 2px #85b3dd;
-    margin-bottom: 18px;
-    padding-bottom: 24px;
-}
-
-.block4_text {
-    font-family: 'Montserrat', sans-serif;;
-    font-size: 12px;
-}
-
-
-.form {
-    background-color: #2985d8;
-    height: 60%;
-}
-
-
-.text-form {
-    font-size: 28px;
-}
-
-.submit-button {
-    border: 1px solid white;
-    padding: 10px 70px;
-    background-color: #2985d8;
-    margin: 0;
-    cursor: pointer;
-    color: white;
-}
-
-.block5 {
-    height: 100%;
-    max-height: auto;
-    width: 100%;
-    background-color: #0d1c26;
-}
-
-#intro2 {
-    background: url(../img/02_Home-Page-Doctor.jpg) no-repeat center center;
-    display: table;
-    width: 100%;
-    position: relative;
-    background-size: cover;
-}
-
-.block5_title {
-    margin: 0 35%;    
-}
-
-.portfolio-menu {
-    text-align: center;
-}
-
-.portfolio-menu ul li {
-    display: inline-block;
-    margin: 0;
-    padding: 10px 15px;
-    cursor: pointer;
-    color: white;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -ms-transtions: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-
-.portfolio-menu ul li:hover {
-    background: #2985d8;
-    color: #fff;
-}
-
-li.active {
-    color: #fff; 
-}
-
-.portfolio-item:after {
-    content: '';
-    display: block;
-    clear: both;
-}
-.portfolio-item .grid-item {
-    position: relative;
-    overflow: hidden;
-}
-
-.portfolio-item .grid-item::before {
-    content: '';
-    position: absolute;
-}
-
-.portfolio-item .grid-item .imgBox {
-    position: relative;
-}
-
-.portfolio-item .grid-item img {
-    width: 100%;
-    transition: 0.5s;
-}
-
-.portfolio-item .grid-item:hover .imgBox img {
-    opacity: 0.2;
-    transform: scale(1.2);
-}
-
-.portfolio-item .grid-item .content {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 2;
-    padding: 20px;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-.portfolio-item .grid-item .content i {
-    margin: 0;
-    padding: 0;
-    color: #2985d8;
-    font-size: 25px;
-    transition: 0.5s;
-    opacity: 0;
-    visibility: hidden;
-}
-
-.portfolio-item .grid-item .content h2 {
-    margin: 0 0 10px;
-    padding: 0;
-    color: #fff;
-    font-size: 14px;
-    transition: 0.5s;
-    transform: translateY(10px);
-    opacity: 0;
-    visibility: hidden;
-}
-
-.portfolio-item .grid-item .content p {
-    margin: 0;
-    padding: 0;
-    color: #fff;
-    font-size: 12px;
-    transition: 0.5s;
-    transform: translateY(24px);
-    opacity: 0;
-    visibility: hidden;
-}
-.portfolio-item .grid-item:hover .content i,
-.portfolio-item .grid-item:hover .content h2,
-.portfolio-item .grid-item:hover .content p {
-    opacity: 1;
-    visibility: visible;
-    transform: scaleY(0px);
-}
-
-.grid-item, .grid-sizer {
-    width: 20%;
-}
-
-.grid-item {
-    float: left;
-    width: 302px;
-}
-  
-.grid-item:before {
-    font-size: 20px;
-    text-align: center;
-    display: block;
-    padding: 0.2em;
-}
-
-.all-projects {
-    padding: 0 45%; 
-}
-
-.block6 {
-    height: auto;
-    background-color: #fafafa;
-    font-size: 13px;
-}
-
-.info {
-    width: 100%;
-    height: auto;
-    background-color: white;
-}
-.images_about {
-    width: 100%;
-}
-
-.video_about {
-    width: 100%;
-    height: 315px;
-}
-
-.block7 {
-    max-height: 100%;
-    max-width: 100%;
-}
-
-.logo {
-    padding-top: 50px;
-    padding-bottom: 45px;
-}
-
-/*Scroll to top*/
-
-#btnScrollToTop {
-    position: fixed;
-    right: 10px;
-    bottom: 75px;
-    width: 50px;
-    height: 50px;
-    background-color: #2985d8;
-    color: #fff;
-    outline: none;
-    cursor: pointer;
-    border: none;
-}
-
-/*Start Footer*/
-
-footer {
-    color: white;
-    align-content: center;
-    font-size: 0.875rem;
-}
-
-.block8 {
-    height: 100%;
-    background-color: #0d1c26;
+h3 {
+  font-weight: bolder;
+  font-family: 'Montserrat', bold 800;
+  font-size: 25px;
 }
 
 .list-unstyled {
-    padding-left: 0px;
-    list-style: none;
-}
-
-.title {
-    font-size: 20px;
-    padding-bottom: 42px;
+  padding-left: 0px;
+  list-style: none;
 }
 
 .text-blue {
-    color: #2985d8;
+  color: #2985d8;
 }
 
-.sign {
-    font-family: 'Mrs Saint Delafield', cursive;
-    font-size: 40px;
+.text-white {
+  color: white;
 }
 
-.social {
-    background-color: white;
-    color: #333;
-    padding: 5px;
+.pt-15 {
+  padding-top: 15rem;
 }
 
-.social:hover {
-    background-color: #2985d8;
-    color: white;
-    padding: 5px;
+.pr-9 {
+  padding-right: 9rem !important;
 }
 
-.text {
-    color: white;
+.pl-6 {
+  padding-left: 6rem !important;
 }
 
-.logo-icon {
-    color: #2985d8;
+/*Start header*/
+.header {
+  background-color: #e6e6e6;
+  width: 100%;
+  font-size: 14px;
+  padding: 0.5% 0;
+  font-family: 'Lato', sans-serif;
 }
 
-.block9 {
-    max-height: auto;
-    background-color: #10222d;
+.header .homepage {
+  font-size: 16px;
+  margin-right: 15px;
+  font-weight: bold;
 }
 
-.footer-nav {
-    color: white;
+.header .new {
+  font-size: 12px;
 }
 
-.footer-nav:hover {
-    color: white;
+.header .phone-number {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.header .phone-number .mobile {
+  -webkit-text-decoration: normal;
+          text-decoration: normal;
+}
+
+.header .register-link {
+  padding: 0.6rem;
+}
+
+.header .register-link:hover {
+  background-color: #2985d8;
+  color: white;
+  height: 100%;
+  text-decoration: none;
+}
+
+/*End header*/
+/*Start navigation*/
+.block2 {
+  color: #646464;
+}
+
+.navbar {
+  padding: 2% 0;
+  background: white;
+}
+
+.nav-item {
+  margin-right: 24px;
+  color: #646464;
+}
+
+/*End navigation*/
+/*Start block3*/
+.block3 {
+  height: 649px;
+  background-color: blue;
+  font-family: 'Montserrat', bold 800;
+}
+
+.block3 .block3_block {
+  height: 100%;
+}
+
+.block3 .block3_block .subheading {
+  font-size: 24px;
+  color: #2985d8;
+}
+
+#intro1 {
+  background: url(../img/12_Home-Page-Doctor.jpg) no-repeat center center;
+  display: table;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+}
+
+/*End block3*/
+.block4 {
+  height: 100%;
+}
+
+.icon {
+  height: 235px;
+  background-color: #fafafa;
+}
+
+.icon:hover {
+  background-color: #2985d8;
+  color: white;
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -ms-transtions: all 1.5s ease;
+  transition: all 1.5s ease;
+}
+
+.services_logo {
+  border-bottom: solid 2px #85b3dd;
+  margin-bottom: 18px;
+  padding-bottom: 24px;
+}
+
+.block4_text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+.form {
+  background-color: #2985d8;
+  height: 60%;
+}
+
+.form .text-form {
+  font-size: 28px;
+}
+
+.form .submit-button {
+  border: 1px solid white;
+  padding: 10px 70px;
+  background-color: #2985d8;
+  margin: 0;
+  cursor: pointer;
+  color: white;
+}
+
+.block5 {
+  height: 100%;
+  max-height: auto;
+  width: 100%;
+  background-color: #0d1c26;
+}
+
+.block5 .block5_title {
+  margin: 0 35%;
+}
+
+.block5 .portfolio-menu {
+  text-align: center;
+}
+
+.block5 .portfolio-menu ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: white;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transtions: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.block5 .portfolio-menu ul li:hover {
+  background: #2985d8;
+  color: #fff;
+}
+
+.block5 li.active {
+  color: #fff;
+}
+
+.block5 .portfolio-item:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.block5 .portfolio-item .grid-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.block5 .portfolio-item .grid-item::before {
+  content: '';
+  position: absolute;
+}
+
+.block5 .portfolio-item .grid-item .imgBox {
+  position: relative;
+}
+
+.block5 .portfolio-item .grid-item img {
+  width: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.block5 .portfolio-item .grid-item:hover .imgBox img {
+  opacity: 0.2;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.block5 .portfolio-item .grid-item:hover .content i, .block5 .portfolio-item .grid-item:hover .content h2, .block5 .portfolio-item .grid-item:hover .content p {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: scaleY(0px);
+          transform: scaleY(0px);
+}
+
+.block5 .portfolio-item .grid-item .content {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 2;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+.block5 .portfolio-item .grid-item .content i {
+  margin: 0;
+  padding: 0;
+  color: #2985d8;
+  font-size: 25px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.block5 .portfolio-item .grid-item .content h2 {
+  margin: 0 0 10px;
+  padding: 0;
+  color: #fff;
+  font-size: 14px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.block5 .portfolio-item .grid-item .content p {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 12px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: translateY(24px);
+          transform: translateY(24px);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.block5 .grid-item {
+  width: 20%;
+  float: left;
+  width: 302px;
+}
+
+.block5 .grid-item:before {
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  padding: 0.2em;
+}
+
+.block5 .grid-sizer {
+  width: 20%;
+}
+
+.block5 .all-projects {
+  padding: 0 45%;
+}
+
+#intro2 {
+  background: url(../img/02_Home-Page-Doctor.jpg) no-repeat center center;
+  display: table;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+}
+
+.block6 {
+  height: auto;
+  background-color: #fafafa;
+  font-size: 13px;
+}
+
+.block6 .info {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+.block6 .info .images_about {
+  width: 100%;
+}
+
+.block6 .video_about {
+  width: 100%;
+  height: 315px;
+}
+
+.block7 {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.logo {
+  padding-top: 50px;
+  padding-bottom: 45px;
+}
+
+/*Scroll to top*/
+#btnScrollToTop {
+  position: fixed;
+  right: 10px;
+  bottom: 75px;
+  width: 50px;
+  height: 50px;
+  background-color: #2985d8;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+/*Start Footer*/
+footer {
+  color: white;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-size: 0.875rem;
+}
+
+footer .block8 {
+  height: 100%;
+  background-color: #0d1c26;
+}
+
+footer .block8 .title {
+  font-size: 20px;
+  padding-bottom: 42px;
+}
+
+footer .block8 .sign {
+  font-family: 'Mrs Saint Delafield', cursive;
+  font-size: 40px;
+}
+
+footer .block8 .social {
+  background-color: white;
+  color: #333;
+  padding: 5px;
+}
+
+footer .block8 .social:hover {
+  background-color: #2985d8;
+  color: white;
+  padding: 5px;
+}
+
+footer .block8 .logo-icon {
+  color: #2985d8;
+}
+
+footer .block9 {
+  max-height: auto;
+  background-color: #10222d;
+}
+
+footer .block9 .footer-nav {
+  color: white;
+}
+
+footer .block9 .footer-nav:hover {
+  color: white;
 }
 
 /*End Footer*/
+/*# sourceMappingURL=style.css.map */

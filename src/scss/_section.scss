@@ -1,0 +1,57 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    
+}
+
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+    body {
+        width: 100%;
+    }
+}
+
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+a {
+    color: #646464;
+}
+
+h3 {
+    font-weight: bolder;
+    font-family: 'Montserrat', bold 800;
+    font-size: 25px;
+}
+
+.list-unstyled {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.text-blue {
+    color: #2985d8;
+}
+
+.text-white {
+    color: white;
+}
+
+.pt-15 {
+    padding-top: 15rem;
+}
+
+.pr-9 {
+    padding-right: 9rem!important
+}
+
+
+.pl-6 {
+    padding-left: 6rem!important
+}

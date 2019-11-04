@@ -1,0 +1,276 @@
+/*Start block3*/
+.block3 {
+    height: 649px;
+    background-color: blue;
+    font-family: 'Montserrat', bold 800;
+
+    .block3_block {
+        height: 100%;
+    
+        .subheading {
+            font-size: 24px;
+            color: #2985d8;
+        }
+    }
+    
+}
+
+#intro1 {
+    background: url(../img/12_Home-Page-Doctor.jpg) no-repeat center center;
+    display: table;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+
+
+
+
+/*End block3*/
+
+.block4 {
+    height: 100%
+
+}
+
+
+
+.icon {
+    height: 235px;
+    background-color: #fafafa;
+
+    &:hover {
+        background-color: #2985d8;
+        color: white;
+        -webkit-transition: all 1.5s ease;
+        -moz-transition: all 1.5s ease;
+        -ms-transtions: all 1.5s ease;
+        -o-transition: all 1.5s ease;
+        transition: all 1.5s ease;
+    }
+}
+
+.services_logo {
+    border-bottom: solid 2px #85b3dd;
+    margin-bottom: 18px;
+    padding-bottom: 24px;
+}
+
+.block4_text {
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 12px;
+}
+
+
+.form {
+    background-color: #2985d8;
+    height: 60%;
+
+    .text-form {
+        font-size: 28px;
+    }
+    
+    .submit-button {
+        border: 1px solid white;
+        padding: 10px 70px;
+        background-color: #2985d8;
+        margin: 0;
+        cursor: pointer;
+        color: white;
+    }
+}
+
+.block5 {
+    height: 100%;
+    max-height: auto;
+    width: 100%;
+    background-color: #0d1c26;
+
+    .block5_title {
+        margin: 0 35%;    
+    }
+
+    $color_1: white;
+    $color_2: #fff;
+    $color_3: #2985d8;
+    .portfolio-menu {
+        text-align: center;
+        ul {
+            li {
+                display: inline-block;
+                margin: 0;
+                padding: 10px 15px;
+                cursor: pointer;
+                color: $color_1;
+                -webkit-transition: all 0.5s ease;
+                -moz-transition: all 0.5s ease;
+                -ms-transtions: all 0.5s ease;
+                -o-transition: all 0.5s ease;
+                transition: all 0.5s ease;
+                &:hover {
+                    background: #2985d8;
+                    color: $color_2;
+                }
+            }
+        }
+    }
+    li.active {
+        color: $color_2;
+    }
+    .portfolio-item {
+        &:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .grid-item {
+            position: relative;
+            overflow: hidden;
+            &::before {
+                content: '';
+                position: absolute;
+            }
+            .imgBox {
+                position: relative;
+            }
+            img {
+                width: 100%;
+                transition: 0.5s;
+            }
+            &:hover {
+                .imgBox {
+                    img {
+                        opacity: 0.2;
+                        transform: scale(1.2);
+                    }
+                }
+                .content {
+                    i, h2, p{
+                        opacity: 1;
+                        visibility: visible;
+                        transform: scaleY(0px);
+                    }
+                }
+            }
+            .content {
+                position: absolute;
+                width: 100%;
+                top: 50%;
+                transform: translateY(-50%);
+                z-index: 2;
+                padding: 20px;
+                box-sizing: border-box;
+                text-align: center;
+                i {
+                    margin: 0;
+                    padding: 0;
+                    color: $color_3;
+                    font-size: 25px;
+                    transition: 0.5s;
+                    opacity: 0;
+                    visibility: hidden;
+                }
+                h2 {
+                    margin: 0 0 10px;
+                    padding: 0;
+                    color: $color_2;
+                    font-size: 14px;
+                    transition: 0.5s;
+                    transform: translateY(10px);
+                    opacity: 0;
+                    visibility: hidden;
+                }
+                p {
+                    margin: 0;
+                    padding: 0;
+                    color: $color_2;
+                    font-size: 12px;
+                    transition: 0.5s;
+                    transform: translateY(24px);
+                    opacity: 0;
+                    visibility: hidden;
+                }
+            }
+        }
+    }
+    .grid-item {
+        width: 20%;
+        float: left;
+        width: 302px;
+        &:before {
+            font-size: 20px;
+            text-align: center;
+            display: block;
+            padding: 0.2em;
+        }
+    }
+    .grid-sizer {
+        width: 20%;
+    }
+    
+    
+    .all-projects {
+        padding: 0 45%; 
+    }
+}
+
+#intro2 {
+    background: url(../img/02_Home-Page-Doctor.jpg) no-repeat center center;
+    display: table;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+
+
+
+
+
+
+.block6 {
+    height: auto;
+    background-color: #fafafa;
+    font-size: 13px;
+
+    .info {
+        width: 100%;
+        height: auto;
+        background-color: white;
+    
+        .images_about {
+            width: 100%;
+        }
+    }
+    
+    .video_about {
+        width: 100%;
+        height: 315px;
+    }
+}
+
+
+
+.block7 {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.logo {
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
+
+/*Scroll to top*/
+
+#btnScrollToTop {
+    position: fixed;
+    right: 10px;
+    bottom: 75px;
+    width: 50px;
+    height: 50px;
+    background-color: #2985d8;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}

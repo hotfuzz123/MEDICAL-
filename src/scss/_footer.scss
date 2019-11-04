@@ -1,0 +1,69 @@
+/*Start Footer*/
+
+footer {
+    color: white;
+    align-content: center;
+    font-size: 0.875rem;
+
+    .block8 {
+        height: 100%;
+        background-color: #0d1c26;
+
+        .title {
+            font-size: 20px;
+            padding-bottom: 42px;
+        }
+
+        .sign {
+            font-family: 'Mrs Saint Delafield', cursive;
+            font-size: 40px;
+        }
+
+        .social {
+            background-color: white;
+            color: #333;
+            padding: 5px;
+        }
+        
+        .social:hover {
+            background-color: #2985d8;
+            color: white;
+            padding: 5px;
+        }
+
+        .logo-icon {
+            color: #2985d8;
+        }
+    }
+
+    .block9 {
+        max-height: auto;
+        background-color: #10222d;
+
+        .footer-nav {
+            color: white;
+
+            &:hover {
+                color: white;
+            }
+        }
+        
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*End Footer*/
