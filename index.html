@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../MEDICAL-/src/css/main.css" type="text/css">
     <link rel="stylesheet" href="../MEDICAL-/src/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.1.0/css/line-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -119,7 +120,7 @@
                     <div class="icon pt-5 mb-2">
                       <div class="p-2 text-center">
                         <div class="logoBox">
-                          <img class="services_logo" src="../MEDICAL-/src/img/Icon 1.png">
+                            <i class="fas fa-pills services_logo"></i>
                         </div>
                         <p class="block4_text">Medicine & Drug Store</p>
                       </div>
@@ -127,7 +128,7 @@
                     <div class="icon pt-5">
                       <div class="p-2 text-center">
                         <div class="logoBox">
-                          <img class="services_logo" src="../MEDICAL-/src/img/Icon 4.png">
+                          <i class="fas fa-syringe services_logo"></i>
                         </div>
                         <p class="block4_text">Dental Surgery operation</p>
                       </div>
@@ -137,7 +138,7 @@
                     <div class="icon pt-5 mb-2">
                       <div class="p-2 text-center">
                         <div class="logoBox">
-                          <img class="services_logo" src="../MEDICAL-/src/img/Icon 2.png">
+                          <i class="fas fa-tooth services_logo"></i>
                         </div>
                         <p class="block4_text">Speacial Health Care</p>
                       </div>
@@ -145,7 +146,7 @@
                     <div class="icon pt-5">
                       <div class="p-2 text-center">
                         <div class="logoBox">
-                          <img class="services_logo" src="../MEDICAL-/src/img/Icon 2.png">
+                          <i class="fas fa-tooth services_logo"></i>
                         </div>
                         <p class="block4_text">Operation Section</p>
                       </div>
@@ -155,7 +156,7 @@
                     <div class="icon pt-5 mb-2">
                       <div class="p-2 text-center">
                         <div class="logoBox">
-                          <img class="services_logo" src="../MEDICAL-/src/img/Icon 3.png">
+                          <i class="fas fa-heartbeat services_logo"></i>
                         </div>
                         <p class="block4_text">Dental Surgery operation</p>
                       </div>
@@ -163,7 +164,7 @@
                     <div class="icon pt-5">
                       <div class="p-2 text-center">
                         <div class="logoBox">
-                          <img class="services_logo" src="../MEDICAL-/src/img/Icon 5.png">
+                          <i class="fas fa-stethoscope services_logo"></i>
                         </div>
                         <p class="block4_text">Special Check up</p>
                       </div>
@@ -178,26 +179,26 @@
                 <p class="text-white uppercase">Fill form & Send me</p>
                 <div>
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Select your country">
+                    <input type="text" name="country" class="form-control" placeholder="Select your country">
                   </div>
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Choose Services">
-                  </div>
-                </div>
-                <div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Select Doctor">
-                  </div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Choose Date">
+                    <input type="text" name="services" class="form-control" placeholder="Choose Services">
                   </div>
                 </div>
                 <div>
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Select Time">
+                    <input type="text" name="doctor" class="form-control" placeholder="Select Doctor">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" name="date" class="form-control" placeholder="Choose Date">
+                  </div>
+                </div>
+                <div>
+                  <div class="form-group">
+                    <input type="text" name="time" class="form-control" placeholder="Select Time">
                   </div>
                   <p class="text-white">All Fields With an Are Required ***</p>
-                  <button class="submit-button">Submit You Requirements</button>
+                  <button name="submit" class="submit-button">Submit You Requirements</button>
                 </div>
               </form>
           </div>
