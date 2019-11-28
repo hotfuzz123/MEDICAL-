@@ -5,8 +5,8 @@
     }
 
     .block5 .portfolio-item .grid-item {
-        width: 290px;
-        display: block;
+        width: 100%;
+        float: none;
     }
 
 
@@ -14,13 +14,14 @@
         padding:0 35%;
     }
     
-    .block5_container{
-        height: 300px;
-    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
+@media only screen and (min-width: 600px) {
+    .block5_container{
+        height: 240px;
+    }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
